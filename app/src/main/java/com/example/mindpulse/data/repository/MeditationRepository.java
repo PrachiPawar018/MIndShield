@@ -1,9 +1,9 @@
-package com.example.mindpulse.data.repository;
+package com.example.mindshield.data.repository;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 
-import com.example.mindpulse.data.model.Meditation;
+import com.example.mindshield.data.model.Meditation;
 
 import java.util.ArrayList;
 import java.util.List;

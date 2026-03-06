@@ -13,4 +13,11 @@
     <string name="signup_button">Sign Up</string>
     <string name="login_prompt">Already have an account? Login</string>
     <string name="join_community">Join the MindShield community</string>
+
+    <string name="error_email_required">Email is required</string>
+    <string name="error_password_required">Password is required</string>
+    <string name="error_name_required">Name is required</string>
+    <string name="error_invalid_email">Please enter a valid email</string>
+    <string name="error_password_short">Password must be at least 6 characters</string>
+    <string name="welcome_user">Welcome, %s!</string>
 </resources>

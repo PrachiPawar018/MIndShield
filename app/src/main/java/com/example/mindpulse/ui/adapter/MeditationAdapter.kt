@@ -1,10 +1,10 @@
-package com.example.mindpulse.ui.adapter
+package com.example.mindshield.ui.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.mindpulse.domain.model.Meditation
-import com.example.mindpulse.databinding.ItemCardBinding
+import com.example.mindshield.domain.model.Meditation
+import com.example.mindshield.databinding.ItemCardBinding
 
 class MeditationAdapter(
     private val meditations: List<Meditation>,

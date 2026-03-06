@@ -1,4 +1,4 @@
-package com.example.mindpulse.ui.explore
+package com.example.mindshield.ui.explore
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,10 +7,10 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.mindpulse.R
-import com.example.mindpulse.databinding.FragmentExploreBinding
-import com.example.mindpulse.domain.model.Meditation
-import com.example.mindpulse.ui.adapter.MeditationAdapter
+import com.example.mindshield.R
+import com.example.mindshield.databinding.FragmentExploreBinding
+import com.example.mindshield.domain.model.Meditation
+import com.example.mindshield.ui.adapter.MeditationAdapter
 
 class ExploreFragment : Fragment() {
 

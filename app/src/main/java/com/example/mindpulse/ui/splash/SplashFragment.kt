@@ -1,4 +1,4 @@
-package com.example.mindpulse.ui.splash
+package com.example.mindshield.ui.splash
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,10 +7,10 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
 import androidx.navigation.fragment.findNavController
-import com.example.mindpulse.R
-import com.example.mindpulse.databinding.FragmentSplashBinding
-import com.example.mindpulse.ui.auth.AuthViewModel
-import com.example.mindpulse.ui.auth.AuthViewModelFactory
+import com.example.mindshield.R
+import com.example.mindshield.databinding.FragmentSplashBinding
+import com.example.mindshield.ui.auth.AuthViewModel
+import com.example.mindshield.ui.auth.AuthViewModelFactory
 
 class SplashFragment : Fragment() {
 
