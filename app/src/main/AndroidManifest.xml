@@ -10,7 +10,7 @@
         android:label="@string/app_name"
         android:roundIcon="@drawable/img"
         android:supportsRtl="true"
-        android:theme="@style/Theme.MindPulse">
+        android:theme="@style/Theme.MindShield">
         <activity
             android:name=".MainActivity"
             android:exported="true">

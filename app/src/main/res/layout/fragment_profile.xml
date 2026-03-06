@@ -87,6 +87,17 @@
                         app:iconPadding="16dp" />
 
                     <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btnEmergencyContacts"
+                        style="@style/Widget.Material3.Button.TextButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="64dp"
+                        android:gravity="start|center_vertical"
+                        android:text="Emergency Contacts"
+                        android:textColor="@color/on_surface"
+                        app:icon="@android:drawable/ic_menu_call"
+                        app:iconPadding="16dp" />
+
+                    <com.google.android.material.button.MaterialButton
                         android:id="@+id/btnNotifications"
                         style="@style/Widget.Material3.Button.TextButton"
                         android:layout_width="match_parent"

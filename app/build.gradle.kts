@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.mindpulse"
+    namespace = "com.example.mindshield"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.example.mindpulse"
+        applicationId = "com.example.mindshield"
         minSdk = 24
         targetSdk = 36
         versionCode = 1
@@ -46,7 +46,16 @@ dependencies {
     implementation(libs.material)
     implementation(libs.activity)
     implementation(libs.constraintlayout)
-    
+
+    // Room
+    implementation(libs.room.runtime)
+    annotationProcessor(libs.room.compiler)
+    // For Cloud Firestore
+    implementation 'com.google.firebase:firebase-firestore-ktx'
+
+// For Firebase Realtime Database
+    implementation 'com.google.firebase:firebase-database-ktx'
+
     // Firebase
     implementation(platform(libs.firebase.bom))
     implementation(libs.firebase.auth)

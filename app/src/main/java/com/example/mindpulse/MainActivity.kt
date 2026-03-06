@@ -1,4 +1,4 @@
-package com.example.mindpulse
+package com.example.mindshield
 
 import android.os.Bundle
 import android.view.View
@@ -9,7 +9,8 @@ import androidx.core.view.WindowInsetsCompat
 import androidx.navigation.NavController
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.NavigationUI
-import com.example.mindpulse.databinding.ActivityMainBinding
+import com.example.mindshield.R
+import com.example.mindshield.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 

@@ -43,7 +43,18 @@ class HomeFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         setupRecyclerView()
+        setupClickListeners()
         observeViewModels()
+    }
+
+    private fun setupClickListeners() {
+        binding.btnJournal.setOnClickListener {
+            findNavController().navigate(R.id.navigation_journal)
+        }
+
+        binding.btnEmergency.setOnClickListener {
+            findNavController().navigate(R.id.navigation_emergency)
+        }
     }
 
     private fun setupRecyclerView() {

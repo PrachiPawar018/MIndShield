@@ -1,39 +1,26 @@
 {
   "project_info": {
-    "project_number": "123456789012",
-    "firebase_url": "https://mindpulse-placeholder.firebaseio.com",
-    "project_id": "mindpulse-placeholder",
-    "storage_bucket": "mindpulse-placeholder.appspot.com"
+    "project_number": "163325432989",
+    "project_id": "mindshield-d391a",
+    "storage_bucket": "mindshield-d391a.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:123456789012:android:0123456789abcdef",
+        "mobilesdk_app_id": "1:163325432989:android:e5667fcd47c5c94886b074",
         "android_client_info": {
-          "package_name": "com.example.mindpulse"
+          "package_name": "com.example.mindshield"
         }
       },
-      "oauth_client": [
-        {
-          "client_id": "123456789012-dummy.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
+      "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyDummyKey_1234567890abcdefghijklm"
+          "current_key": "AIzaSyDdzSIVEWUzWmJ5yTd_UN8nUhlLUsWCYas"
         }
       ],
       "services": {
-        "analytics_service": {
-          "status": 1
-        },
         "appinvite_service": {
-          "status": 1,
           "other_platform_oauth_client": []
-        },
-        "ads_service": {
-          "status": 1
         }
       }
     }

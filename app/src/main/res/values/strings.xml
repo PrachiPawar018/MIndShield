@@ -1,50 +1,16 @@
 <resources>
-    <string name="app_name">MindPulse</string>
-    <string name="welcome_text" translatable="false">Welcome to MindPulse</string>
-
-    <!-- Auth -->
-    <string name="welcome_back">Welcome Back</string>
-    <string name="login_subtitle">Log in to your MindPulse account</string>
-    <string name="email">Email</string>
-    <string name="password">Password</string>
-    <string name="login">Log In</string>
-    <string name="dont_have_account">Don\'t have an account? </string>
-    <string name="sign_up">Sign Up</string>
-    <string name="create_account">Create Account</string>
-    <string name="full_name">Full Name</string>
-    <string name="join_community">Join the MindPulse community</string>
-    <string name="already_have_account">Already have an account? </string>
-    <string name="forgot_password">Forgot Password?</string>
-
-    <!-- Navigation -->
-    <string name="home">Home</string>
-    <string name="explore">Explore</string>
-    <string name="profile">Profile</string>
-    <string name="settings">Settings</string>
-
-    <!-- Profile -->
-    <string name="edit_profile">Edit Profile</string>
-    <string name="notifications">Notifications</string>
-    <string name="privacy_policy">Privacy Policy</string>
-    <string name="logout">Log Out</string>
-
-    <!-- Home -->
-    <string name="welcome_user">Welcome back, %1$s!</string>
-    <string name="how_feeling">How are you feeling today?</string>
-    <string name="daily_meditation">Daily Meditation</string>
-    <string name="meditation_desc">Relax your mind and find your inner peace with our 10-minute guided session.</string>
-    <string name="start_now">Start Now</string>
-    <string name="recommended">Recommended for you</string>
-
-    <!-- Details -->
-    <string name="about_session">About this session</string>
-    <string name="start_meditation">Start Meditation</string>
-    <string name="meditation_detail_desc">Start your day with clarity and focus. This morning meditation is designed to help you wake up your mind and body, setting a positive tone for the rest of your day. \n\nFind a comfortable position, close your eyes, and let the gentle guidance lead you to a state of calm.</string>
-
-    <!-- Errors -->
-    <string name="error_email_required">Email is required</string>
-    <string name="error_password_required">Password is required</string>
-    <string name="error_name_required">Full name is required</string>
-    <string name="error_invalid_email">Please enter a valid email</string>
-    <string name="error_password_short">Password must be at least 6 characters</string>
+    <string name="app_name">MindShield</string>
+    <string name="welcome_text" translatable="false">Welcome to MindShield</string>
+    <string name="login_title">Welcome Back</string>
+    <string name="login_subtitle">Log in to your MindShield account</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="login_button">Login</string>
+    <string name="signup_prompt">Don\'t have an account? Sign Up</string>
+    <string name="signup_title">Create Account</string>
+    <string name="signup_subtitle">Join the MindShield community</string>
+    <string name="name_hint">Full Name</string>
+    <string name="signup_button">Sign Up</string>
+    <string name="login_prompt">Already have an account? Login</string>
+    <string name="join_community">Join the MindShield community</string>
 </resources>
