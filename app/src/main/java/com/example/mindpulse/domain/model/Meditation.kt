@@ -1,4 +1,4 @@
-package com.example.mindpulse.domain.model
+package com.example.mindshield.domain.model
 
 data class Meditation(
     val id: String = "",

@@ -50,11 +50,12 @@ dependencies {
     // Room
     implementation(libs.room.runtime)
     annotationProcessor(libs.room.compiler)
-    // For Cloud Firestore
-    implementation 'com.google.firebase:firebase-firestore-ktx'
 
-// For Firebase Realtime Database
-    implementation 'com.google.firebase:firebase-database-ktx'
+    // For Cloud Firestore
+    implementation("com.google.firebase:firebase-firestore-ktx")
+
+    // For Firebase Realtime Database
+    implementation("com.google.firebase:firebase-database-ktx")
 
     // Firebase
     implementation(platform(libs.firebase.bom))

@@ -1,4 +1,4 @@
-package com.example.mindpulse.ui.home;
+package com.example.mindshield.ui.home;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -10,7 +10,7 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.Navigation;
 
-import com.example.mindpulse.databinding.FragmentDetailsBinding;
+import com.example.mindshield.databinding.FragmentDetailsBinding;
 
 public class DetailsFragment extends Fragment {
 

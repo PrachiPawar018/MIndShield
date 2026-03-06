@@ -1,11 +1,11 @@
-package com.example.mindpulse.data;
+package com.example.mindshield.data;
 
 import androidx.room.Dao;
 import androidx.room.Delete;
 import androidx.room.Insert;
 import androidx.room.Query;
 
-import com.example.mindpulse.data.model.Journal;
+import com.example.mindshield.data.model.Journal;
 
 import java.util.List;
 

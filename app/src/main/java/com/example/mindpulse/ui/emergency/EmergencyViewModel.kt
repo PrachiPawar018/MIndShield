@@ -1,15 +1,15 @@
-package com.example.mindpulse.ui.emergency
+package com.example.mindshield.ui.emergency
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.mindpulse.domain.model.EmergencyAlert
-import com.example.mindpulse.domain.model.EmergencyContact
-import com.example.mindpulse.domain.use_case.database.AddEmergencyContactUseCase
-import com.example.mindpulse.domain.use_case.database.GetEmergencyContactsUseCase
-import com.example.mindpulse.domain.use_case.database.SendEmergencyAlertUseCase
-import com.example.mindpulse.utils.Resource
+import com.example.mindshield.domain.model.EmergencyAlert
+import com.example.mindshield.domain.model.EmergencyContact
+import com.example.mindshield.domain.use_case.database.AddEmergencyContactUseCase
+import com.example.mindshield.domain.use_case.database.GetEmergencyContactsUseCase
+import com.example.mindshield.domain.use_case.database.SendEmergencyAlertUseCase
+import com.example.mindshield.utils.Resource
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
 

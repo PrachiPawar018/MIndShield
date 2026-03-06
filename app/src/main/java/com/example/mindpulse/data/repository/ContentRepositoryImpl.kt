@@ -1,8 +1,8 @@
-package com.example.mindpulse.data.repository
+package com.example.mindshield.data.repository
 
-import com.example.mindpulse.domain.model.Meditation
-import com.example.mindpulse.domain.repository.ContentRepository
-import com.example.mindpulse.utils.Resource
+import com.example.mindshield.domain.model.Meditation
+import com.example.mindshield.domain.repository.ContentRepository
+import com.example.mindshield.utils.Resource
 import com.google.firebase.firestore.FirebaseFirestore
 import kotlinx.coroutines.channels.awaitClose
 import kotlinx.coroutines.flow.Flow

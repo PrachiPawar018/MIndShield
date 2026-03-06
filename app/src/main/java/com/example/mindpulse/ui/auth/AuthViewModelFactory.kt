@@ -1,9 +1,9 @@
-package com.example.mindpulse.ui.auth
+package com.example.mindshield.ui.auth
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import com.example.mindpulse.data.repository.AuthRepositoryImpl
-import com.example.mindpulse.domain.use_case.auth.*
+import com.example.mindshield.data.repository.AuthRepositoryImpl
+import com.example.mindshield.domain.use_case.auth.*
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FirebaseFirestore
 

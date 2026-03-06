@@ -1,9 +1,9 @@
-package com.example.mindpulse.ui.home
+package com.example.mindshield.ui.home
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import com.example.mindpulse.data.repository.ContentRepositoryImpl
-import com.example.mindpulse.domain.use_case.content.GetRecommendedMeditationsUseCase
+import com.example.mindshield.data.repository.ContentRepositoryImpl
+import com.example.mindshield.domain.use_case.content.GetRecommendedMeditationsUseCase
 import com.google.firebase.firestore.FirebaseFirestore
 
 class HomeViewModelFactory : ViewModelProvider.Factory {

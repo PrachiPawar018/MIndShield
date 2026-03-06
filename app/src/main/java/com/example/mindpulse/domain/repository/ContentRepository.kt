@@ -1,7 +1,7 @@
-package com.example.mindpulse.domain.repository
+package com.example.mindshield.domain.repository
 
-import com.example.mindpulse.domain.model.Meditation
-import com.example.mindpulse.utils.Resource
+import com.example.mindshield.domain.model.Meditation
+import com.example.mindshield.utils.Resource
 import kotlinx.coroutines.flow.Flow
 
 interface ContentRepository {

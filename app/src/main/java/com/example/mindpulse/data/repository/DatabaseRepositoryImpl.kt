@@ -1,10 +1,10 @@
-package com.example.mindpulse.data.repository
+package com.example.mindshield.data.repository
 
-import com.example.mindpulse.domain.model.EmergencyAlert
-import com.example.mindpulse.domain.model.EmergencyContact
-import com.example.mindpulse.domain.model.JournalEntry
-import com.example.mindpulse.domain.repository.DatabaseRepository
-import com.example.mindpulse.utils.Resource
+import com.example.mindshield.domain.model.EmergencyAlert
+import com.example.mindshield.domain.model.EmergencyContact
+import com.example.mindshield.domain.model.JournalEntry
+import com.example.mindshield.domain.repository.DatabaseRepository
+import com.example.mindshield.utils.Resource
 import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.firestore.Query
 import kotlinx.coroutines.channels.awaitClose

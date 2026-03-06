@@ -8,10 +8,10 @@
             <InsightsFilterSettings>
               <option name="connection">
                 <ConnectionSetting>
-                  <option name="appId" value="PLACEHOLDER" />
-                  <option name="mobileSdkAppId" value="" />
-                  <option name="projectId" value="" />
-                  <option name="projectNumber" value="" />
+                  <option name="appId" value="com.example.mindshield" />
+                  <option name="mobileSdkAppId" value="1:163325432989:android:e5667fcd47c5c94886b074" />
+                  <option name="projectId" value="mindshield-d391a" />
+                  <option name="projectNumber" value="163325432989" />
                 </ConnectionSetting>
               </option>
               <option name="signal" value="SIGNAL_UNSPECIFIED" />

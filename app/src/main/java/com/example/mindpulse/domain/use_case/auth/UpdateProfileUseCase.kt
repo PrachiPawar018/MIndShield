@@ -1,7 +1,7 @@
-package com.example.mindpulse.domain.use_case.auth
+package com.example.mindshield.domain.use_case.auth
 
-import com.example.mindpulse.domain.repository.AuthRepository
-import com.example.mindpulse.utils.Resource
+import com.example.mindshield.domain.repository.AuthRepository
+import com.example.mindshield.utils.Resource
 import kotlinx.coroutines.flow.Flow
 
 class UpdateProfileUseCase(private val repository: AuthRepository) {

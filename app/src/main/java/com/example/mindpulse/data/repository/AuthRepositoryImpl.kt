@@ -1,8 +1,8 @@
-package com.example.mindpulse.data.repository
+package com.example.mindshield.data.repository
 
-import com.example.mindpulse.domain.model.User
-import com.example.mindpulse.domain.repository.AuthRepository
-import com.example.mindpulse.utils.Resource
+import com.example.mindshield.domain.model.User
+import com.example.mindshield.domain.repository.AuthRepository
+import com.example.mindshield.utils.Resource
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FirebaseFirestore
 import kotlinx.coroutines.channels.awaitClose

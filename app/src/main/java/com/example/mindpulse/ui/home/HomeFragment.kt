@@ -1,4 +1,4 @@
-package com.example.mindpulse.ui.home
+package com.example.mindshield.ui.home
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -10,12 +10,12 @@ import androidx.fragment.app.activityViewModels
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.mindpulse.R
-import com.example.mindpulse.databinding.FragmentHomeBinding
-import com.example.mindpulse.ui.adapter.MeditationAdapter
-import com.example.mindpulse.ui.auth.AuthViewModel
-import com.example.mindpulse.ui.auth.AuthViewModelFactory
-import com.example.mindpulse.utils.Resource
+import com.example.mindshield.R
+import com.example.mindshield.databinding.FragmentHomeBinding
+import com.example.mindshield.ui.adapter.MeditationAdapter
+import com.example.mindshield.ui.auth.AuthViewModel
+import com.example.mindshield.ui.auth.AuthViewModelFactory
+import com.example.mindshield.utils.Resource
 
 class HomeFragment : Fragment() {
 

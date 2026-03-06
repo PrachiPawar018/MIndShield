@@ -1,4 +1,4 @@
-package com.example.mindpulse.data.model;
+package com.example.mindshield.data.model;
 
 public class User {
     private String id;

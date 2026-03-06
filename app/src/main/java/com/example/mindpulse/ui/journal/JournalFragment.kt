@@ -1,4 +1,4 @@
-package com.example.mindpulse.ui.journal
+package com.example.mindshield.ui.journal
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,8 +7,8 @@ import android.view.ViewGroup
 import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
-import com.example.mindpulse.databinding.FragmentJournalBinding
-import com.example.mindpulse.utils.Resource
+import com.example.mindshield.databinding.FragmentJournalBinding
+import com.example.mindshield.utils.Resource
 import com.google.firebase.auth.FirebaseAuth
 
 class JournalFragment : Fragment() {

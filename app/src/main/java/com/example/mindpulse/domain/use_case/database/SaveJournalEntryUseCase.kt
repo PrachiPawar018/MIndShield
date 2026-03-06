@@ -1,8 +1,8 @@
-package com.example.mindpulse.domain.use_case.database
+package com.example.mindshield.domain.use_case.database
 
-import com.example.mindpulse.domain.model.JournalEntry
-import com.example.mindpulse.domain.repository.DatabaseRepository
-import com.example.mindpulse.utils.Resource
+import com.example.mindshield.domain.model.JournalEntry
+import com.example.mindshield.domain.repository.DatabaseRepository
+import com.example.mindshield.utils.Resource
 import kotlinx.coroutines.flow.Flow
 
 class SaveJournalEntryUseCase(

@@ -1,7 +1,7 @@
-package com.example.mindpulse.domain.use_case.auth
+package com.example.mindshield.domain.use_case.auth
 
-import com.example.mindpulse.domain.repository.AuthRepository
-import com.example.mindpulse.domain.model.User
+import com.example.mindshield.domain.repository.AuthRepository
+import com.example.mindshield.domain.model.User
 
 class GetCurrentUserUseCase(private val repository: AuthRepository) {
     operator fun invoke(): User? = repository.getCurrentUser()

@@ -1,4 +1,4 @@
-package com.example.mindpulse.ui.profile
+package com.example.mindshield.ui.profile
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,10 +7,10 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
 import androidx.navigation.fragment.findNavController
-import com.example.mindpulse.R
-import com.example.mindpulse.databinding.FragmentProfileBinding
-import com.example.mindpulse.ui.auth.AuthViewModel
-import com.example.mindpulse.ui.auth.AuthViewModelFactory
+import com.example.mindshield.R
+import com.example.mindshield.databinding.FragmentProfileBinding
+import com.example.mindshield.ui.auth.AuthViewModel
+import com.example.mindshield.ui.auth.AuthViewModelFactory
 
 class ProfileFragment : Fragment() {
 

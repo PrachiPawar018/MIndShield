@@ -1,6 +1,8 @@
-package com.example.mindpulse.domain.use_case.content
+package com.example.mindshield.domain.use_case.content
 
-import com.example.mindpulse.domain.repository.ContentRepository
+import com.example.mindshield.domain.model.Meditation
+import com.example.mindshield.domain.repository.ContentRepository
+import com.example.mindshield.utils.Resource
 
 class GetAllMeditationsUseCase(private val repository: ContentRepository) {
     operator fun invoke() = repository.getAllMeditations()

@@ -1,4 +1,4 @@
-package com.example.mindpulse.ui.auth
+package com.example.mindshield.ui.auth
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,9 +8,9 @@ import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
-import com.example.mindpulse.R
-import com.example.mindpulse.databinding.FragmentLoginBinding
-import com.example.mindpulse.utils.Resource
+import com.example.mindshield.R
+import com.example.mindshield.databinding.FragmentLoginBinding
+import com.example.mindshield.utils.Resource
 
 class LoginFragment : Fragment() {
 

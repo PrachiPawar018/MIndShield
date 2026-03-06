@@ -1,12 +1,12 @@
-package com.example.mindpulse.ui.auth
+package com.example.mindshield.ui.auth
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.mindpulse.domain.model.User
-import com.example.mindpulse.domain.use_case.auth.*
-import com.example.mindpulse.utils.Resource
+import com.example.mindshield.domain.model.User
+import com.example.mindshield.domain.use_case.auth.*
+import com.example.mindshield.utils.Resource
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
 

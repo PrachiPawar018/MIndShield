@@ -1,4 +1,4 @@
-package com.example.mindpulse.utils
+package com.example.mindshield.utils
 
 sealed class Resource<T>(
     val data: T? = null,
